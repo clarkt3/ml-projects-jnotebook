@@ -1,0 +1,13 @@
+prefix=/Users/tomclark/Desktop/sample_project/env
+exec_prefix=/Users/tomclark/Desktop/sample_project/env
+libdir=/Users/tomclark/Desktop/sample_project/env/lib
+sharedlibdir=/Users/tomclark/Desktop/sample_project/env/lib
+includedir=/Users/tomclark/Desktop/sample_project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
